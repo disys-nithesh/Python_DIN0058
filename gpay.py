@@ -39,11 +39,11 @@ def paymentconfirmation():
     value=int(input("Enter The Received OTP:"))
     print("\n")
     if(key==value):
-        print("                       Transaction Successful")
+        print("Transaction Successful")
         print("\n")
         
     else:
-        print("                       Transaction Failed")
+        print("Transaction Failed")
         print("\n")
         
 
@@ -92,7 +92,7 @@ def menu():
     elif(pref==3):
         viewcontacts()
     elif(pref==4):
-        print("""                 Thank You For Using Google Pay                             """)
+        print("""Thank You For Using Google Pay""")
         exit()
 
 
